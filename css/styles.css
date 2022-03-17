@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #fff;
+  background-color: #222;
   color: #222;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 16px;
@@ -32,9 +32,9 @@ img {
 
 /* OUTLINE  */
 *:focus {
-  outline: #222;
+  outline: #1e90ff;
   outline-offset: 2px;
-  outline-style: dotted;
+  outline-style: dashed;
 }
 
 /* CONTAINER  */
@@ -138,6 +138,7 @@ img {
   width: 100%;
   max-width: 600px;
   padding: 54px;
+  background-color: #fff;
 }
 
 .latest-videos-heading {
